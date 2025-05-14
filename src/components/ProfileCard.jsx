@@ -6,7 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export const ProfileCard = () => {
     return (
-        <div className='h-full w-full bg-white border-2 border-black rounded-xl overflow-hidden relative'>
+        <div className='bg-white border-2 border-black rounded-xl overflow-hidden relative'>
             <img
                 src={backgroundImg}
                 alt="Profile Background"
@@ -26,13 +26,13 @@ export const ProfileCard = () => {
                     <a href='https://github.com/danajeon' target="_blank">
                         <GitHubIcon
                             sx={{ fontSize: 50 }}
-                            className='text-[#B5B8FF] hover:cursor-pointer'
+                            className='text-[#B5B8FF] hover:animate-colorPulse hover:cursor-pointer'
                         />
                     </a>
                     <a href='https://www.linkedin.com/in/dana-jeon-dev' target="_blank">
                         <LinkedInIcon
                             sx={{ fontSize: 50 }}
-                            className='text-[#B5B8FF] hover:cursor-pointer'
+                            className='text-[#B5B8FF] hover:animate-colorPulse hover:cursor-pointer'
                         />
                     </a>
                 </div>
