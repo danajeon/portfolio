@@ -1,6 +1,6 @@
 import React from 'react';
-import backgroundImg from "../images/Background.png";
-import profileImg from "../images/Profile.jpg";
+import backgroundImg from "/images/Background.png";
+import profileImg from "/images/Profile.jpg";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
@@ -17,7 +17,7 @@ export const ProfileCard = () => {
                 src={profileImg}
                 alt="Profile Picture"
                 draggable="false"
-                className='h-48 w-48 border-2 border-[#D9B7E9] rounded-full absolute left-1/2 top-[45%] transform -translate-x-1/2 -translate-y-1/2 z-10 overflow-hidden object-cover'
+                className='h-48 w-48 border-4 border-[#D9B7E9] rounded-full absolute left-1/2 top-[45%] transform -translate-x-1/2 -translate-y-1/2 z-10 overflow-hidden object-cover'
             />
             <div className='h-[55%] w-full flex flex-col items-center justify-center pt-20'>
                 <h1 className='text-2xl'>Dana Jeon</h1>
