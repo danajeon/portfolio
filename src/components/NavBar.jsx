@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const NavBar = () => {
     return (
         <div className='flex justify-center bg-white border-2 border-black rounded-xl p-4 text-xl text-center text-[#888DFE] hover:cursor-pointer'>

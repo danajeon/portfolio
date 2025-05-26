@@ -1,4 +1,3 @@
-import React from 'react'
 import iconCloseWindow from '/images/icon-close-window.png'
 import iconMaximizeWindow from '/images/icon-maximize-window.png'
 import iconMinimizeWindow from '/images/icon-minimize-window.png'
@@ -12,7 +11,7 @@ const scrollToSection = (id) => {
 
 export const Window = () => {
     return (
-        <div className="h-full w-full max-w-[1200px] bg-[url('../images/Wallpaper.webp')] bg-[length:15px_15px] bg-repeat border-2 border-black rounded-xl p-10 overflow-y-scroll">
+        <div className="h-[65%] w-full max-w-[1200px] bg-[url('../images/Wallpaper.webp')] bg-[length:15px_15px] bg-repeat border-2 border-black rounded-xl p-10 overflow-y-scroll">
             <div className='flex flex-col items-center space-y-10'>
 
                 {/* About Me */}

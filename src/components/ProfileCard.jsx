@@ -1,5 +1,4 @@
-import React from 'react';
-import backgroundImg from "/images/Background.png";
+import backgroundImg from "/images/Background.jpg";
 import profileImg from "/images/Profile.jpg";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -17,21 +16,21 @@ export const ProfileCard = () => {
                 src={profileImg}
                 alt="Profile Picture"
                 draggable="false"
-                className='h-48 w-48 border-4 border-[#D9B7E9] rounded-full absolute left-1/2 top-[45%] transform -translate-x-1/2 -translate-y-1/2 z-10 overflow-hidden object-cover'
+                className='h-48 w-48 border-4 border-[#fad4e1] rounded-full absolute left-1/2 top-[45%] transform -translate-x-1/2 -translate-y-1/2 z-10 overflow-hidden object-cover'
             />
             <div className='h-[55%] w-full flex flex-col items-center justify-center pt-20'>
-                <h1 className='text-2xl'>Dana Jeon</h1>
-                <h2 className='text-xl'>Software Engineer</h2>
-                <div className='flex flex-row space-x-4 pt-4'>
+                <h1 className='text-xl'>Dana Jeon</h1>
+                <h2 className='text-lg'>Software Engineer</h2>
+                <div className='flex flex-row space-x-4 pt-2'>
                     <a href='https://github.com/danajeon' target="_blank">
                         <GitHubIcon
-                            sx={{ fontSize: 50 }}
+                            sx={{ fontSize: 45 }}
                             className='text-[#B5B8FF] hover:animate-colorPulse hover:cursor-pointer'
                         />
                     </a>
                     <a href='https://www.linkedin.com/in/dana-jeon-dev' target="_blank">
                         <LinkedInIcon
-                            sx={{ fontSize: 50 }}
+                            sx={{ fontSize: 45 }}
                             className='text-[#B5B8FF] hover:animate-colorPulse hover:cursor-pointer'
                         />
                     </a>

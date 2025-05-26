@@ -1,5 +1,3 @@
-import { keyframes } from "@emotion/react";
-
 /* @type {import('tailwindcss').Config} */
 export default {
   content: [
