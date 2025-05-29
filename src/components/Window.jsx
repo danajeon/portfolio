@@ -20,7 +20,7 @@ export const Window = () => {
                     className='h-[300px] w-[80%] bg-white border-2 border-black rounded-xl shadow-xl overflow-hidden'>
                     <div className='h-[15%] w-full flex items-center justify-between bg-gradient-to-r from-[#D9B7E9] via-[#FFB4DE] to-[#FFB6C1] border-b-2 border-black'>
                         <div>
-                            <span className='flex font-bold text-white indent-5'>about-me.exe</span>
+                            <span className='flex font-bold text-white indent-5'>About Me</span>
                         </div>
                         <div className='flex items-center ml-auto pr-3'>
                             <img src={iconMinimizeWindow} alt="Min" />

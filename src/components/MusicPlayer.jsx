@@ -64,9 +64,9 @@ export const MusicPlayer = () => {
 
     return (
         <div className='h-[35%] w-full border-2 border-black rounded-xl overflow-hidden'>
-            <div className='h-[13%] w-full flex items-center justify-between bg-gradient-to-r from-[#D9B7E9] via-[#FFB4DE] to-[#FFB6C1] border-b-2 border-black'>
+            <div className='h-[15%] w-full flex items-center justify-between bg-gradient-to-r from-[#D9B7E9] via-[#FFB4DE] to-[#FFB6C1] border-b-2 border-black'>
                 <div>
-                    <span className='flex font-bold text-white text-xs indent-4'>music-player.exe</span>
+                    <span className='flex font-bold text-white text-xs indent-4'>Media Player</span>
                 </div>
                 <div className='flex items-center pr-2'>
                     <img src={iconMinimizeWindow} alt="Min" className='h-5' />
@@ -74,7 +74,7 @@ export const MusicPlayer = () => {
                     <img src={iconCloseWindow} alt="Close" className='h-5' />
                 </div>
             </div>
-            <div className='h-[87%] bg-white p-4 relative'>
+            <div className='h-[85%] bg-white p-4 relative'>
                 <audio
                     src={tracks[currentTrack].src}
                     ref={audioRef}
@@ -96,13 +96,13 @@ export const MusicPlayer = () => {
                             src={cd}
                             alt="CD"
                             draggable="false"
-                            className='h-[65px] w-[65px] absolute left-3 top-0 z-0 translate-x-1/2'
+                            className='h-[60px] w-[60px] absolute left-4 top-0.5 z-0 translate-x-1/2'
                         />
                     </div>
                     <div className='bg-neutral-100 border border-gray-300 shadow-inner rounded-md text-gray-400 text-xs px-4 py-2'>{`♫ ` + tracks[currentTrack].title}</div>
                 </div>
                 <div
-                    className="w-full h-1 bg-gray-200 rounded-full relative mb-4 cursor-pointer"
+                    className="w-full h-1 bg-gray-200 rounded-full relative mb-3 cursor-pointer"
                     onClick={(e) => {
                         const rect = e.currentTarget.getBoundingClientRect();
                         const offsetX = e.clientX - rect.left;
@@ -125,7 +125,7 @@ export const MusicPlayer = () => {
                 </div>
 
                 {/* Controls */}
-                <div className='flex flex-row justify-center'>
+                <div className='flex flex-row justify-center gap-3'>
                     <button
                         onClick={playPrevious}>
                         <SkipPreviousIcon
