@@ -23,9 +23,21 @@ export const Window = () => {
                             <span className='flex font-bold text-white indent-5'>About Me</span>
                         </div>
                         <div className='flex items-center ml-auto pr-3'>
-                            <img src={iconMinimizeWindow} alt="Min" />
-                            <img src={iconMaximizeWindow} alt="Max" />
-                            <img src={iconCloseWindow} alt="Close" />
+                            <img
+                                src={iconMinimizeWindow}
+                                alt="Min"
+                                draggable="false"
+                            />
+                            <img
+                                src={iconMaximizeWindow}
+                                alt="Max"
+                                draggable="false"
+                            />
+                            <img
+                                src={iconCloseWindow}
+                                alt="Close"
+                                draggable="false"
+                            />
                         </div>
                     </div>
                     <div className='h-[85%] w-full bg-white p-5 overflow-y-scroll'>
