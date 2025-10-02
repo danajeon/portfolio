@@ -1,7 +1,4 @@
 import { useState, useRef, useEffect } from 'react'
-import iconCloseWindow from '/images/icon-close-window.png'
-import iconMaximizeWindow from '/images/icon-maximize-window.png'
-import iconMinimizeWindow from '/images/icon-minimize-window.png'
 import musicNote from '/images/music-note.jpg'
 import cd from '/images/cd.png'
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
@@ -63,15 +60,10 @@ export const MusicPlayer = () => {
     }, []);
 
     return (
-        <div className='h-[35%] w-full border-2 border-black rounded-xl overflow-hidden'>
-            <div className='h-[15%] w-full flex items-center justify-between bg-gradient-to-r from-[#D9B7E9] via-[#FFB4DE] to-[#FFB6C1] border-b-2 border-black'>
+        <div className='h-[35%] w-full rounded-xl overflow-hidden techyFont floatDiv'>
+            <div className='h-[15%] w-full flex items-center justify-between bg-gradient-to-r from-[#D9B7E9] via-[#FFB4DE] to-[#FFB6C1]'>
                 <div>
                     <span className='flex font-bold text-white text-xs indent-4'>Media Player</span>
-                </div>
-                <div className='flex items-center pr-2'>
-                    <img src={iconMinimizeWindow} alt="Min" className='h-5' />
-                    <img src={iconMaximizeWindow} alt="Max" className='h-5' />
-                    <img src={iconCloseWindow} alt="Close" className='h-5' />
                 </div>
             </div>
             <div className='h-[85%] bg-white p-4 relative'>

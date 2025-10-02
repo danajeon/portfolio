@@ -3,5 +3,15 @@
 @tailwind utilities;
 
 body {
+    font-family: "Baloo 2", sans-serif;
+    /* font-family: "Baloo 2", sans-serif; */
+}
+
+.techyFont {
     font-family: "Cutive Mono", sans-serif;
+}
+
+.floatDiv {
+    box-shadow:
+        8px 8px 15px #bebebe
 }

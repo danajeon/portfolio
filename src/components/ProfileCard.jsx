@@ -2,15 +2,16 @@ import backgroundImg from "/images/Background.jpg";
 import profileImg from "/images/Profile.jpg";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { TbFileCv } from "react-icons/tb";
 
 export const ProfileCard = () => {
     return (
-        <div className='bg-white border-2 border-black rounded-xl overflow-hidden relative'>
+        <div className='border border-[rgb(181,184,254)] bg-white rounded-xl overflow-hidden relative techyFont floatDiv'>
             <img
                 src={backgroundImg}
                 alt="Profile Background"
                 draggable="false"
-                className='h-[45%] w-full border-black border-b-2 object-cover'
+                className='h-[45%] w-full object-cover'
             />
             <img
                 src={profileImg}
@@ -32,6 +33,13 @@ export const ProfileCard = () => {
                         <LinkedInIcon
                             sx={{ fontSize: 45 }}
                             className='text-[#B5B8FF] hover:animate-colorPulse hover:cursor-pointer'
+                        />
+                    </a>
+                    <a href={''}
+                        className='hover:animate-colorPulse hover:cursor-pointer'
+                        style={{ color: '#B5B8FF' }}>
+                        <TbFileCv
+                            size={45}
                         />
                     </a>
                 </div>
