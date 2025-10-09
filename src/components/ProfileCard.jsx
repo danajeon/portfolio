@@ -17,7 +17,7 @@ export const ProfileCard = () => {
                 src={profileImg}
                 alt="Profile Picture"
                 draggable="false"
-                className='h-48 w-48 border-4 border-[#fad4e1] rounded-full absolute left-1/2 top-[45%] transform -translate-x-1/2 -translate-y-1/2 z-10 overflow-hidden object-cover'
+                className='h-48 w-48 border-4 border-[#FAD4E1] rounded-full absolute left-1/2 top-[45%] transform -translate-x-1/2 -translate-y-1/2 z-10 overflow-hidden object-cover'
             />
             <div className='h-[55%] w-full flex flex-col items-center justify-center pt-20'>
                 <h1 className='text-xl'>Dana Jeon</h1>
