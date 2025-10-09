@@ -3,13 +3,17 @@ import SendIcon from '@mui/icons-material/Send';
 
 const handleSubmit = (e) => {
     e.preventDefault();
-    const formData = new FormData(e.target);
+    const form = e.target;
+    const formData = new FormData(form);
 
     fetch("/", {
         method: "POST",
         body: formData,
     })
-        .then(() => alert("Your message has been sent."))
+        .then(() => {
+            alert("Your message has been sent.");
+            form.reset();
+        })
         .catch((error) => alert(error));
 };
 
