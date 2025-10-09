@@ -7,7 +7,9 @@ export const Contact = () => {
             <h3 className="w-full text-center text-4xl font-semibold text-rose-300 pb-6">
                 Contact
             </h3>
-            <div className="isolate bg-[#C4CEE750] p-10 rounded-xl floatDiv">
+            <div
+                className="isolate bg-[#C4CEE750] p-10 rounded-xl floatDiv"
+                netlify>
                 <div
                     aria-hidden="true"
                     className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -23,7 +25,15 @@ export const Contact = () => {
                 <div className="mx-auto max-w-2xl text-center flex justify-center">
                     <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 pb-8 sm:text-5xl">Hire Me!</h2>
                 </div>
-                <form method="POST" className="mx-auto max-w-xl ">
+                <form
+                    data-netlify="true"
+                    name="contact"
+                    method="POST"
+                    className="mx-auto max-w-xl ">
+
+                    {/* Hidden form name for Netlify */}
+                    <input type="hidden" name="form-name" value="contact" />
+
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                         <div>
                             <label htmlFor="first-name" className="block text-sm/6 font-semibold text-gray-900">
