@@ -6,7 +6,7 @@ export const Experience = () => {
             <h3 className="w-full text-center text-rose-300 text-4xl font-semibold pb-6">
                 Experience
             </h3>
-            <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical bg-[rgba(181,184,254,0.2)] rounded-xl p-10 floatDiv">
+            <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical bg-[rgba(181,184,254,0.2)] rounded-xl p-10 mb-10 floatDiv">
                 <li>
                     <div className="timeline-middle text-rose-300">
                         <svg

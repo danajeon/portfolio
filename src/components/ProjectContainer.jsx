@@ -32,7 +32,7 @@ export const ProjectContainer = () => {
   ];
 
   return (
-    <div className="w-full">
+    <div className="w-full mb-10">
       <h3 className="w-full text-center text-rose-300 text-4xl font-semibold pb-6">
         Projects
       </h3>

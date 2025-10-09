@@ -36,7 +36,7 @@ export const TechContainer = () => {
 
   return (
     <div
-      className="w-full flex flex-col items-center p-10"
+      className="w-full flex flex-col items-center p-10 mb-10"
       onMouseEnter={() => setMouseEnter(true)}
       onMouseLeave={() => setMouseEnter(false)}
     >
