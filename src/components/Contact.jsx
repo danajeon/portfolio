@@ -1,6 +1,18 @@
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import SendIcon from '@mui/icons-material/Send';
 
+const handleSubmit = (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+
+    fetch("/", {
+        method: "POST",
+        body: formData,
+    })
+        .then(() => alert("Your message has been sent."))
+        .catch((error) => alert(error));
+};
+
 export const Contact = () => {
     return (
         <div>
@@ -8,8 +20,7 @@ export const Contact = () => {
                 Contact
             </h3>
             <div
-                className="isolate bg-[#C4CEE750] p-10 rounded-xl floatDiv"
-                netlify>
+                className="isolate bg-[#C4CEE750] p-10 rounded-xl floatDiv">
                 <div
                     aria-hidden="true"
                     className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -29,7 +40,8 @@ export const Contact = () => {
                     data-netlify="true"
                     name="contact"
                     method="POST"
-                    className="mx-auto max-w-xl ">
+                    className="mx-auto max-w-xl"
+                    onSubmit={handleSubmit}>
 
                     {/* Hidden form name for Netlify */}
                     <input type="hidden" name="form-name" value="contact" />
