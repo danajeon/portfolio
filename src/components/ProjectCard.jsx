@@ -49,6 +49,7 @@ export const ProjectCard = ({
             target="_blank"
             rel="noopener noreferrer"
             className="z-10 flex justify-center items-center rounded-full hover:text-[#59a1b7]"
+            onClick={(e) => e.stopPropagation()}
           >
             <GitHubIcon fontSize="medium" />
           </a>
