@@ -22,10 +22,10 @@ export const ProjectCard = ({
   return (
     <div
       onClick={() => handleClick(index)}
-      className={`h-[350px] z-1 lex flex-col justify-end text-white rounded-xl shadow-black shadow-md overflow-hidden cursor-pointer transition-all duration-500 ease-in-out
+      className={`lg:h-[350px] md:h-[350px] h-[400px] lg:w-auto md:w-auto w-full z-1 flex flex-col justify-end text-white rounded-xl shadow-black shadow-md overflow-hidden cursor-pointer transition-all duration-500 ease-in-out
         hover:shadow-lg
         hover:text-[#182934]
-        ${selected === index ? 'flex-[3]' : 'flex-[1]'}
+        ${selected === index ? 'lg:flex-[3] md:flex-[3]' : 'lg:flex-[1] md:flex-[1]'}
       `}
       style={{
         backgroundImage: `url(${screenshot})`,
@@ -52,17 +52,15 @@ export const ProjectCard = ({
           >
             <GitHubIcon fontSize="medium" />
           </a>
-          <div className={`flex gap-1 bg-white border border-white badge badge-soft badge-primary ${selected === index ? 'block' : 'hidden'}`}>
-            {techUsed.map((x, i) => {
-              if (i === techUsed.length - 1) {
-                return <span className={`text-xs font-normal text-inherit`}>{x}</span>
-              } else {
-                return <span className={`text-xs font-normal text-inherit`}>{x} |</span>
+          <div className={`flex-wrap gap-1 ${selected === index ? 'lg:flex md:flex flex' : 'lg:hidden md:hidden flex'}`}>
+            {techUsed.map((x) => {
+              {
+                return <span className={`bg-white border border-white rounded-lg p-1 text-[cornflowerblue] text-xs font-normal text-inherit`}>{x}</span>
               }
             })}
           </div>
         </div>
-        <span className={`${selected === index ? 'block' : 'hidden'} text-sm font-normal text-inherit mt-1 px-2 pb-3`}>
+        <span className={`${selected === index ? 'lg:block md:block block' : 'lg:hidden md:hidden block'} text-sm font-normal text-inherit mt-1 px-2 pb-3`}>
           {dsc}
         </span>
       </div>

@@ -22,8 +22,9 @@ export const Experience = () => {
                             />
                         </svg>
                     </div>
-                    <time className="timeline-end absolute top-0 font-mono">March 2025 - May 2025</time>
-                    <div className="timeline-start mb-10 md:text-end bg-[white] rounded-xl floatDiv p-3">
+                    <time className="lg:block md:block hidden timeline-end absolute top-0 font-mono">March 2025 - May 2025</time>
+                    <div className="timeline-start mb-10 md:text-end bg-[white] rounded-xl floatDiv p-3 max-md:timeline-start w-full">
+                        <time className="font-mono lg:hidden md:hidden block">March 2025 - May 2025</time>
                         <div className="text-lg font-black">Web Developer</div>
                         <div className="italic">Freelance</div>
                         Enhanced a Shopify-based e-commerce site by refining UI layouts, customizing Liquid templates, and improving user flow to increase accessibility and conversion rates.
@@ -46,8 +47,9 @@ export const Experience = () => {
                             />
                         </svg>
                     </div>
-                    <time className="timeline-start absolute top-0 font-mono">November 2024 - December 2024</time>
-                    <div className="timeline-end md:mb-10 bg-[white] rounded-xl floatDiv p-3">
+                    <time className="lg:block md:block hidden timeline-start absolute top-0 font-mono">November 2024 - December 2024</time>
+                    <div className="lg:timeline-end md:timeline-end timeline-start md:mb-10 bg-[white] rounded-xl floatDiv p-3 w-full">
+                        <time className="font-mono lg:hidden md:hidden block">November 2024 - December 2024</time>
                         <div className="text-lg font-black">Software Engineer</div>
                         <div className="italic">Chingu</div>
                         Collaborated remotely with a team of 9 to build SolarRise (sustainable energy platform), implementing data validation, UX improvements, and Google Maps API integrations.
@@ -70,15 +72,16 @@ export const Experience = () => {
                             />
                         </svg>
                     </div>
-                    <time className="timeline-end absolute top-0 font-mono">March 2024 - June 2024</time>
-                    <div className="timeline-start mb-10 md:text-end bg-[white] rounded-xl floatDiv p-3">
+                    <time className="lg:block md:block hidden timeline-end absolute top-0 font-mono">March 2024 - June 2024</time>
+                    <div className="timeline-start md:mb-10 md:text-end bg-[white] rounded-xl floatDiv p-3 w-full">
+                        <time className="font-mono lg:hidden md:hidden block">March 2024 - June 2024</time>
                         <div className="text-lg font-black">Software Engineer</div>
                         <div className="italic">Hack for LA</div>
                         Improved the performance and maintainability of a non-profit website by refactoring code and eliminating unnecessary variables, resulting in cleaner and more efficient code.
                     </div>
                     <hr className="bg-white" />
                 </li>
-                <li>
+                <li className="">
                     <hr className="bg-white" />
                     <div className="timeline-middle text-rose-300">
                         <svg
@@ -94,11 +97,11 @@ export const Experience = () => {
                             />
                         </svg>
                     </div>
-                    <time className="timeline-start absolute top-0 font-mono">August 2021 - Present</time>
-                    <div className="timeline-end md:mb-10 bg-[white] rounded-xl floatDiv p-3">
+                    <time className="lg:block md:block hidden timeline-start absolute top-0 font-mono">August 2021 - Present</time>
+                    <div className="lg:timeline-end md:timeline-end timeline-start md:mb-10 bg-[white] rounded-xl floatDiv p-3 w-full">
+                        <time className="font-mono lg:hidden md:hidden block">August 2021 - Present</time>
                         <div className="text-lg font-black">Histolgy Technician (IHC Team Lead)</div>
                         <div className="italic">Finan Templeton Dermatopathology Associates</div>
-                        .
                     </div>
                 </li>
             </ul>

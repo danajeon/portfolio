@@ -36,13 +36,11 @@ export const TechContainer = () => {
 
   return (
     <div
-      className="w-full flex flex-col items-center p-10 mb-10"
+      className="w-full flex flex-col items-center lg:p-10 mb-10"
       onMouseEnter={() => setMouseEnter(true)}
       onMouseLeave={() => setMouseEnter(false)}
     >
-      <h3 className="text-center text-4xl font-semibold text-rose-300 pb-6
-        lg:text-4xl 
-        md:text-xl">
+      <h3 className="text-center text-4xl font-semibold text-rose-300 pb-6">
         Tools & Tech
       </h3>
       <div className="w-[100%] flex flex-row flex-wrap justify-center gap-4">

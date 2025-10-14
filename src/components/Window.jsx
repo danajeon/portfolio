@@ -6,14 +6,14 @@ import { Contact } from './Contact';
 
 export const Window = () => {
     return (
-        <div className="h-[100%] w-full max-w-[1200px] border border-[rgb(181,184,254)] bg-[url('../images/Wallpaper.webp')] bg-[length:15px_15px] bg-repeat rounded-xl p-10 overflow-y-scroll scroll-smooth floatDiv">
+        <div className="h-[100%] w-full max-w-[1200px] border border-[rgb(181,184,254)] bg-[url('../images/Wallpaper.webp')] bg-[length:15px_15px] bg-repeat rounded-xl lg:p-10 md:p-10 p-4 lg:overflow-y-scroll md:overflow-y-scroll scroll-smooth floatDiv">
             <div className='w-full flex flex-col items-center space-y-10'>
 
                 {/* About Me */}
                 <div
                     id='about-me'
-                    className='h-full lg:w-[90%] md:w-[98%] w-[90%] bg-white rounded-xl shadow-xl overflow-hidden p-6 mb-10 scroll-mt-10 floatDiv'>
-                    <div className='flex h-fit w-full bg-white overflow-y-scroll'>
+                    className='h-full lg:w-[90%] md:w-[98%] w-full bg-white rounded-xl shadow-xl overflow-hidden p-6 mb-10 scroll-mt-10 floatDiv'>
+                    <div className='flex h-fit w-full bg-white overflow-x-hidden'>
 
                         <img
                             src={AboutMe}
@@ -24,7 +24,7 @@ export const Window = () => {
 
                         <div className='flex flex-col'>
                             <h2 className='text-4xl font-semibold text-rose-300 text-left pb-4 border-r-4 border-r-white overflow-hidden whitespace-nowrap'>Hi, I'm Dana ･ᴗ･</h2>
-                            <p className=''>I'm a front-end developer with a focus on building responsive, user-centered applications. <br></br> <br></br> What started with customizing Tumblr themes grew into a passion for developing thoughtful, tailored tools — especially when existing solutions didn't quite fit the bill. I enjoy designing intuitive experiences and writing clean, maintainable code that solves real-world problems. <br></br> <br></br> Outside of work, you can find me playing games on my Switch, or planning my next road trip with the playlist queued and snacks in hand.</p>
+                            <p className=''>I'm a front-end developer with a focus on building responsive, user-centered applications. <br></br> <br></br> What started with customizing Tumblr themes grew into a desire for developing thoughtful, tailored tools — especially when existing solutions didn't quite fit the bill. I enjoy designing intuitive experiences and writing clean, maintainable code that solves real-world problems. <br></br> <br></br> Outside of work, you can find me playing games on my Switch, or planning my next road trip with the playlist queued and snacks in hand.</p>
                         </div>
                     </div>
                 </div>

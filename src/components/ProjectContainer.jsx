@@ -36,8 +36,8 @@ export const ProjectContainer = () => {
       <h3 className="w-full text-center text-rose-300 text-4xl font-semibold pb-6">
         Projects
       </h3>
-      <div className="w-full flex flex-col justify-center items-center bg-gradient-to-br from-[#EBE1F1] to-[#FDDBE3] rounded-xl p-10 floatDiv">
-        <div className="w-full flex flex-row items-center gap-6">
+      <div className="w-full flex flex-col justify-center items-center bg-gradient-to-br from-[#EBE1F1] to-[#FDDBE3] rounded-xl lg:p-10 md:p-10 p-4 floatDiv">
+        <div className="w-full flex lg:flex-row md:flex-row flex-col items-center gap-6">
           {projects.map((projectObject, i) => (
             <ProjectCard
               key={i}
