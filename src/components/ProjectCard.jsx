@@ -55,7 +55,7 @@ export const ProjectCard = ({
           <div className={`flex-wrap gap-1 ${selected === index ? 'lg:flex md:flex flex' : 'lg:hidden md:hidden flex'}`}>
             {techUsed.map((x) => {
               {
-                return <span className={`bg-white border border-white rounded-lg p-1 text-[cornflowerblue] text-xs font-normal text-inherit`}>{x}</span>
+                return <span className={`bg-white border border-white rounded-lg p-1 text-blue-500 text-xs font-normal text-inherit`}>{x}</span>
               }
             })}
           </div>
