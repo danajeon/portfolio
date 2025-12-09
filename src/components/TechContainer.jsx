@@ -10,7 +10,7 @@ import figma from "/images/tech/figma.webp";
 import git from "/images/tech/git.webp";
 import github from "/images/tech/github.webp";
 import api from "/images/tech/api.webp";
-import aws from "/images/tech/aws.webp";
+// import aws from "/images/tech/aws.webp";
 import json from "/images/tech/json.webp";
 import html from "/images/tech/html.webp";
 import css from "/images/tech/css.webp";
@@ -30,7 +30,6 @@ export const TechContainer = () => {
     { logo: figma, label: "Figma" },
     { logo: git, label: "Git" },
     { logo: github, label: "GitHub" },
-    { logo: aws, label: "AWS" },
     { logo: api, label: "API" },
     { logo: json, label: "json" },
     { logo: html, label: "HTML" },
