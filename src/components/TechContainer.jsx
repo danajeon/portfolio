@@ -3,6 +3,7 @@ import TechCard from "./TechCard";
 import react from "/images/tech/react.webp";
 import javascript from "/images/tech/javascript.webp";
 import typescript from "/images/tech/typescript.webp";
+import nodejs from "/images/tech/nodejs.webp";
 import tailwind from "/images/tech/tailwind.webp";
 import supabase from "/images/tech/supabase.webp";
 import figma from "/images/tech/figma.webp";
@@ -22,9 +23,10 @@ export const TechContainer = () => {
 
   const techs = [
     { logo: react, label: "React" },
-    { logo: tailwind, label: "Tailwind" },
     { logo: javascript, label: "JavaScript" },
     { logo: typescript, label: "TypeScript" },
+    { logo: tailwind, label: "Tailwind" },
+    { logo: nodejs, label: "Node.js" },
     { logo: supabase, label: "Supabase" },
     { logo: figma, label: "Figma" },
     { logo: git, label: "Git" },
