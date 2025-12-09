@@ -3,7 +3,7 @@ import TechCard from "./TechCard";
 import react from "/images/tech/react.webp";
 import javascript from "/images/tech/javascript.webp";
 import typescript from "/images/tech/typescript.webp";
-import nodejs from "/images/tech/nodejs.webp";
+// import nodejs from "/images/tech/nodejs.webp";
 import tailwind from "/images/tech/tailwind.webp";
 import supabase from "/images/tech/supabase.webp";
 import figma from "/images/tech/figma.webp";
@@ -16,7 +16,7 @@ import html from "/images/tech/html.webp";
 import css from "/images/tech/css.webp";
 // import sass from "/images/tech/sass.webp";
 // import reactNative from "/images/tech/reactNative.webp";
-// Shopify, Netlify?, Postman, AWS, Jira
+// Shopify, Netlify?, Postman, Jira
 
 export const TechContainer = () => {
   const [mouseEnter, setMouseEnter] = useState(false);
@@ -26,7 +26,6 @@ export const TechContainer = () => {
     { logo: javascript, label: "JavaScript" },
     { logo: typescript, label: "TypeScript" },
     { logo: tailwind, label: "Tailwind" },
-    { logo: nodejs, label: "Node.js" },
     { logo: supabase, label: "Supabase" },
     { logo: figma, label: "Figma" },
     { logo: git, label: "Git" },
