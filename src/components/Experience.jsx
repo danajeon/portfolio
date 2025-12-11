@@ -25,7 +25,7 @@ export const Experience = () => {
                     <time className="lg:block md:block hidden timeline-end absolute top-0 font-mono">March 2025 - May 2025</time>
                     <div className="timeline-start mb-10 md:text-end bg-[white] rounded-xl floatDiv p-3 max-md:timeline-start w-full">
                         <time className="font-mono lg:hidden md:hidden block">March 2025 - May 2025</time>
-                        <div className="text-lg font-black">Web Developer</div>
+                        <div className="text-lg font-black">Front-end Developer</div>
                         <div className="italic">Freelance</div>
                         Enhanced a Shopify-based e-commerce site by refining UI layouts, customizing Liquid templates, and improving user flow to increase accessibility and conversion rates.
                     </div>
@@ -50,7 +50,7 @@ export const Experience = () => {
                     <time className="lg:block md:block hidden timeline-start absolute top-0 font-mono">November 2024 - December 2024</time>
                     <div className="lg:timeline-end md:timeline-end timeline-start md:mb-10 bg-[white] rounded-xl floatDiv p-3 w-full">
                         <time className="font-mono lg:hidden md:hidden block">November 2024 - December 2024</time>
-                        <div className="text-lg font-black">Software Engineer</div>
+                        <div className="text-lg font-black">Software Developer</div>
                         <div className="italic">Chingu</div>
                         Collaborated remotely with a team of 9 to build SolarRise (sustainable energy platform), implementing data validation, UX improvements, and Google Maps API integrations.
                     </div>
@@ -75,7 +75,7 @@ export const Experience = () => {
                     <time className="lg:block md:block hidden timeline-end absolute top-0 font-mono">March 2024 - June 2024</time>
                     <div className="timeline-start md:mb-10 md:text-end bg-[white] rounded-xl floatDiv p-3 w-full">
                         <time className="font-mono lg:hidden md:hidden block">March 2024 - June 2024</time>
-                        <div className="text-lg font-black">Software Engineer</div>
+                        <div className="text-lg font-black">Full-stack Developer</div>
                         <div className="italic">Hack for LA</div>
                         Improved the performance and maintainability of a non-profit website by refactoring code and eliminating unnecessary variables, resulting in cleaner and more efficient code.
                     </div>
