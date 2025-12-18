@@ -27,7 +27,7 @@ export const Experience = () => {
                         <time className="font-mono lg:hidden md:hidden block">March 2025 - May 2025</time>
                         <div className="text-lg font-black">Front-end Developer</div>
                         <div className="italic">Freelance</div>
-                        Enhanced a Shopify-based e-commerce site by refining UI layouts, customizing Liquid templates, and improving user flow to increase accessibility and conversion rates.
+                        Delivered a Shopify storefront redesign using custom Liquid, HTML, CSS, and JavaScript, collaborating directly with the client and launching ahead of schedule with reported increases in traffic and sales.
                     </div>
                     <hr className="bg-white" />
                 </li>
@@ -52,7 +52,7 @@ export const Experience = () => {
                         <time className="font-mono lg:hidden md:hidden block">November 2024 - December 2024</time>
                         <div className="text-lg font-black">Software Developer</div>
                         <div className="italic">Chingu</div>
-                        Collaborated remotely with a team of 9 to build SolarRise (sustainable energy platform), implementing data validation, UX improvements, and Google Maps API integrations.
+                        Contributed to front-end development on a cross-functional Agile team of 9, implementing features, participating in GitHub pull requests and code reviews, and working from Jira-managed sprints and Figma designs.
                     </div>
                     <hr className="bg-white" />
                 </li>
@@ -75,9 +75,9 @@ export const Experience = () => {
                     <time className="lg:block md:block hidden timeline-end absolute top-0 font-mono">March 2024 - June 2024</time>
                     <div className="timeline-start md:mb-10 md:text-end bg-[white] rounded-xl floatDiv p-3 w-full">
                         <time className="font-mono lg:hidden md:hidden block">March 2024 - June 2024</time>
-                        <div className="text-lg font-black">Full-stack Developer</div>
+                        <div className="text-lg font-black">Front-end Developer</div>
                         <div className="italic">Hack for LA</div>
-                        Improved the performance and maintainability of a non-profit website by refactoring code and eliminating unnecessary variables, resulting in cleaner and more efficient code.
+                        Contributed front-end updates to a large-scale open-source civic tech project by resolving GitHub-tracked issues through a structured review and approval workflow.
                     </div>
                     <hr className="bg-white" />
                 </li>
@@ -100,8 +100,9 @@ export const Experience = () => {
                     <time className="lg:block md:block hidden timeline-start absolute top-0 font-mono">August 2021 - Present</time>
                     <div className="lg:timeline-end md:timeline-end timeline-start md:mb-10 bg-[white] rounded-xl floatDiv p-3 w-full">
                         <time className="font-mono lg:hidden md:hidden block">August 2021 - Present</time>
-                        <div className="text-lg font-black">Histolgy Technician (IHC Team Lead)</div>
+                        <div className="text-lg font-black">Histolgy Technician (IHC) Team Lead</div>
                         <div className="italic">Finan Templeton Dermatopathology Associates</div>
+                        Lead a cross-functional team in a high-volume laboratory environment, overseeing 1,000+ IHC stains monthly while improving productivity by ~20% and refining SOPs to enhance quality and onboarding.
                     </div>
                 </li>
             </ul>
