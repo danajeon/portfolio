@@ -3,6 +3,7 @@ import profileImg from "/images/Profile.jpg";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { TbFileCv } from "react-icons/tb";
+import resume from "/Resume.pdf"
 
 export const ProfileCard = () => {
     return (
@@ -36,7 +37,8 @@ export const ProfileCard = () => {
                                 className='text-[#B5B8FF] hover:animate-colorPulse hover:cursor-pointer'
                             />
                         </a>
-                        <a href={''}
+                        <a href={resume}
+                            download
                             className='hover:animate-colorPulse hover:cursor-pointer mt-1'
                             style={{ color: '#B5B8FF' }}>
                             <TbFileCv />
@@ -68,7 +70,8 @@ export const ProfileCard = () => {
                                 className='text-[white] hover:cursor-pointer'
                             />
                         </a>
-                        <a href={''}
+                        <a href={resume}
+                            download
                             className='hover:cursor-pointer mt-1'
                             style={{ color: 'white' }}>
                             <TbFileCv />
