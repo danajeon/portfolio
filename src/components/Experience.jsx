@@ -100,7 +100,7 @@ export const Experience = () => {
                     <time className="lg:block md:block hidden timeline-start absolute top-0 font-mono">August 2021 - Present</time>
                     <div className="lg:timeline-end md:timeline-end timeline-start md:mb-10 bg-[white] rounded-xl floatDiv p-3 w-full">
                         <time className="font-mono lg:hidden md:hidden block">August 2021 - Present</time>
-                        <div className="text-lg font-black">Histolgy Technician (IHC) Team Lead</div>
+                        <div className="text-lg font-black">Histology Technician (IHC) Team Lead</div>
                         <div className="italic">Finan Templeton Dermatopathology Associates</div>
                         Lead a cross-functional team in a high-volume laboratory environment, overseeing 1,000+ IHC stains monthly while improving productivity by ~20% and refining SOPs to enhance quality and onboarding.
                     </div>
