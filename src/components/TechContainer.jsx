@@ -14,7 +14,7 @@ import api from "/images/tech/api.webp";
 import json from "/images/tech/json.webp";
 import html from "/images/tech/html.webp";
 import css from "/images/tech/css.webp";
-// import sass from "/images/tech/sass.webp";
+import sass from "/images/tech/sass.webp";
 // import reactNative from "/images/tech/reactNative.webp";
 // Shopify, Netlify?, Postman, Jira
 
@@ -34,6 +34,7 @@ export const TechContainer = () => {
     { logo: json, label: "json" },
     { logo: html, label: "HTML" },
     { logo: css, label: "CSS" },
+    { logo: scss, label: "SCSS" },
   ];
 
   return (
