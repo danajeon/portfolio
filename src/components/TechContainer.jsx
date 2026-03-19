@@ -34,7 +34,7 @@ export const TechContainer = () => {
     { logo: json, label: "json" },
     { logo: html, label: "HTML" },
     { logo: css, label: "CSS" },
-    { logo: scss, label: "SCSS" },
+    { logo: sass, label: "SCSS" },
   ];
 
   return (
