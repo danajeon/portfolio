@@ -3,7 +3,7 @@ import profileImg from "/images/Profile.jpg";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { TbFileCv } from "react-icons/tb";
-import resume from "/Resume.pdf"
+import resume from "/DanaJeon_Resume.pdf"
 
 export const ProfileCard = () => {
     return (
